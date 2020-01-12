@@ -19,4 +19,6 @@ public class Bird : MonoBehaviour
             rig.velocity = Vector2.up * Speed;
         }
     }
+
+
 }
