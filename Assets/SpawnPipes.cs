@@ -14,7 +14,7 @@ public class SpawnPipes : MonoBehaviour
         newPipe.transform.position = transform.position + new Vector3(0, Random.Range(-height, height), 0);
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         if (timer > maxTime)
